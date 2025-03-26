@@ -42,10 +42,10 @@ print(f"Elapsed: {time() - start} seconds \n")
 print(res_get_forecast)
 
 # Convert lists to numpy arrays for easier handling
-mean = np.asarray(ast.literal_eval(res_get_forecast['mean'])).ravel()
-lower = np.asarray(ast.literal_eval(res_get_forecast['lower'])).ravel()
-upper = np.asarray(ast.literal_eval(res_get_forecast['upper'])).ravel()
-sims = np.asarray(ast.literal_eval(res_get_forecast['sims']))
+mean = np.asarray(res_get_forecast['mean']).ravel()
+lower = np.asarray(res_get_forecast['lower']).ravel()
+upper = np.asarray(res_get_forecast['upper']).ravel()
+sims = np.asarray(res_get_forecast['sims'])
 
 # Plotting
 plt.figure(figsize=(10, 6))
