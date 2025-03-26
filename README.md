@@ -1,6 +1,6 @@
 
 ![PyPI](https://img.shields.io/pypi/v/forecastingAPI) [![PyPI - License](https://img.shields.io/pypi/l/forecastingAPI)](https://github.com/Techtonique/forecastingAPI/blob/master/LICENSE) [![Downloads](https://pepy.tech/badge/forecastingAPI)](https://pepy.tech/project/forecastingAPI) 
-[![HitCount](https://hits.dwyl.com/Techtonique/forecastingAPI.svg?style=flat-square)](http://hits.dwyl.com/Techtonique/forecastingAPI)
+[![Documentation](https://img.shields.io/badge/documentation-is_here-green)](https://docs.techtonique.net/techtonique_api_py/forecastingapi/forecastingapi.html)
 
 # forecastingAPI
 
@@ -16,6 +16,7 @@ pip install forecastingapi
 
 - File examples: [https://github.com/Techtonique/datasets/tree/main/time_series](https://github.com/Techtonique/datasets/tree/main/time_series)
 - Get a token: [https://www.techtonique.net/token](https://www.techtonique.net/token)
+- Works best with a token in a the environment (see docs)
 
 ```python
 import forecastingapi as fapi
